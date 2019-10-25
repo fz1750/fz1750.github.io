@@ -104,6 +104,21 @@ aside {
 	font-style: italic;
 }
 
+input, select, textarea {
+	display: block;
+	margin-bottom: 1em;
+	
+label {
+		display:block;
+}
+
+form ul {
+	list-style-type: none;
+}
+
+.chkbx {
+		display: inline-block;
+}
 /* Tablet rules */
 @media only screen and (min-width: 660px) {
 
@@ -240,7 +255,41 @@ aside {
 		 padding: 1.5em;
 		 margin: 1em;
 	 }
-		 
+	 
+	 table {
+		border: 0.1em solid #000000;
+		border-collapse: collapse;
+		margin-left: auto;
+		margin-right: auto;
+		width: 100%;
+	 }
+	 
+	 th, td {
+		border: 0.1em solid #000000; 
+		padding: 1em;
+	 }
+	 
+	th {
+		background-color: #1D1D1C;
+		color: #FFFFFF	
+	}
+	 
+	 caption {
+		 font-size: 1.5em;
+		 font-weight: bold;
+		 padding-bottom: 0.5em;
+	 }
+	 
+	 label {
+		float: left;
+		padding: .05em;
+		text-align: right;
+		width: 10em;
+	 }
+	 
+	 .btn {
+		 margin-left: 12em;
+	 }
 }
 /* Desktop rules */
 
@@ -364,6 +413,24 @@ aside {
 	main article h2 {
 		color: #000000;
 	}
+	
+	table {
+		background-color: #FFFFFF;
+		width: 80%;
+	}
+	
+	caption {
+		color: #FFFFFF;
+}
+
+form {
+	background-color: #FFFFF;
+	padding: 1em;
+}
+	
+form p {
+	color: #000000;
+	
 }
 	
 
